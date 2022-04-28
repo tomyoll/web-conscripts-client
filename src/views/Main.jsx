@@ -180,8 +180,8 @@ export default function MainPage() {
                 //margin={"normal"}
                 id={"lastName"}
                 onChange={(e) => setLastName(e.target.value)}
-                label={"Прізвизще"}
-                name={"Прізвизще"}
+                label={"Прізвище"}
+                name={"Прізвище"}
               />
             </Grid>
             <Grid item xs={5}>
@@ -209,7 +209,7 @@ export default function MainPage() {
             </Grid>
             <Grid item xs={5}>
               <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">Воєннозобов&apos;язаний?</InputLabel>
+                <InputLabel id="demo-simple-select-label">Військовозобов&apos;язаний?</InputLabel>
                 <Select
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
