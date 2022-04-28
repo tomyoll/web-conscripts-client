@@ -56,7 +56,7 @@ export default function MainPage() {
     },
     {
       field: "isConscript",
-      headerName: "Воєннозобов'язаний",
+      headerName: "Військово'язаний",
       type: "string",
       sortable: true,
       width: 150,
@@ -214,7 +214,7 @@ export default function MainPage() {
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
                   value={isConscript}
-                  label="Воєннозобов'язаний?"
+                  label="Військово'язаний?"
                   onChange={(e) => setConscript(e.target.value)}>
                   <MenuItem value={true}>Так</MenuItem>
                   <MenuItem value={false}>Ні</MenuItem>
